@@ -582,7 +582,7 @@ namespace EveOPreview.View.Implementation
             Dispatcher.Invoke(() =>
             {
                 UpdateButton.Content = $"发现新版本 {latestVersionTag}，点击更新";
-                _latestReleaseUrl = $"https://github.com/yuruichang/eve-o-preview-cn/releases/tag/{latestVersionTag}";
+                _latestReleaseUrl = $"https://github.com/reova/eve-o-preview-cn/releases/tag/{latestVersionTag}";
                 UpdateButton.Visibility = Visibility.Visible;
             });
         }

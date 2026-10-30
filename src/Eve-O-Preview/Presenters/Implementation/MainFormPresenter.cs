@@ -15,8 +15,8 @@ namespace EveOPreview.Presenters
     public class MainFormPresenter : Presenter<IMainFormView>, IMainFormPresenter
     {
         #region Private constants
-        private const string GITHUB_API_URL = @"https://api.github.com/repos/yuruichang/eve-o-preview-cn/releases/latest";
-        private const string GITHUB_RELEASES_URL = @"https://github.com/yuruichang/eve-o-preview-cn/releases";
+        private const string GITHUB_API_URL = @"https://api.github.com/repos/reova/eve-o-preview-cn/releases/latest";
+        private const string GITHUB_RELEASES_URL = @"https://github.com/reova/eve-o-preview-cn/releases";
         private static readonly Version CURRENT_VERSION = new Version(2, 3, 1);
         #endregion
 
